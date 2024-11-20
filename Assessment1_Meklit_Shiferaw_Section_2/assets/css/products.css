@@ -55,7 +55,6 @@ h2{
     border-radius: 5px;  
     margin-bottom: 20px; 
     padding: 10px;
-    width: calc(27% - 20px);
 }
 .product img{
     max-width: 100%;
@@ -71,6 +70,9 @@ h2{
     .product-list {
         flex-direction: row;
         justify-content: space-between;
+    }
+    .product {
+         width: calc(27% - 20px);
     }
 }
 footer{
